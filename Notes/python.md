@@ -1,5 +1,5 @@
 # What is python?
-- Python is a high-level programming language created by [Guido Van Rossum](python/Notes/topics.md) in 1991.
+- Python is a high-level programming language created by [Guido Van Rossum](https://github.com/pknatic/python/blob/main/Notes/topics.md) in 1991.
 - It is free to use and distributes and is supported by community.
 - Python interpreter is available for every major platform.
 - It is run on multiples platforms without change any code syntax.
