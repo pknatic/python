@@ -12,6 +12,7 @@ Dynamic linking: COM components can be loaded and unloaded at runtime, which mea
 Component registration: COM components are registered with the operating system, making them discoverable by other applications and allowing them to be instantiated as needed.<br>
 Overall, the COM framework has been widely used in Windows application development, and has influenced the design of other similar technologies such as ActiveX, .NET and DCOM.<br>
 .NET is a software development framework developed by Microsoft that provides a programming model and a set of libraries for building applications that can run on multiple platforms, including Windows, macOS, and Linux. It was first introduced in 2002 and has since become one of the most widely used frameworks for building Windows-based applications.<br>
+
 # .NET
 The .NET framework is based on a common language runtime (CLR), which provides a number of services such as memory management, exception handling, and security. Applications written in different programming languages such as C#, Visual Basic, and F# can all be compiled to run on the CLR, allowing developers to choose the language that best fits their needs.<br>
 Some of the key features of .NET include:<br>
@@ -27,20 +28,4 @@ SOAP (Simple Object Access Protocol) is a messaging protocol used for exchanging
 In Python, you can use the suds library to implement SOAP web services. suds is a lightweight SOAP client for Python that allows you to easily interact with SOAP-based web services.<br>
 Here is an example of how to use suds to consume a SOAP web service:
 
-
-from suds.client import Client 
-
-# create a SOAP client
-client = Client('http://www.example.com/webservice?wsdl')
-
-# call a method on the web service
-result = client.service.some_method(arg1, arg2, ...)
-
-> # process the result
-print(result)
-
-In this example, Client is used to create a SOAP client by specifying the WSDL (Web Services Description Language) URL of the web service. Then, the service attribute is used to call a method on the web service, passing in any required arguments. Finally, the result is processed as desired.
-
-
-
-
+In this example, ' Client ' is used to create a SOAP client by specifying the WSDL (Web Services Description Language) URL of the web service. Then, the ' service ' attribute is used to call a method on the web service, passing in any required arguments. Finally, the result is processed as desired.
