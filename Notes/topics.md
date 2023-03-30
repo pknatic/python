@@ -62,3 +62,11 @@ To create an XML-RPC server in Python, you can use the `SimpleXMLRPCServer` modu
 
 Overall, Python's support for XML-RPC makes it easy to implement distributed systems that can communicate with each other over the Internet.
 
+
+# COBRA
+
+
+COBRA (Common Object Request Broker Architecture) is a middleware technology that enables distributed computing by allowing objects in different locations to communicate with each other using a common protocol.<br>
+Python has a module called Pyro (Python Remote Objects), which is an implementation of the COBRA architecture. Pyro allows Python objects to be accessed and manipulated across different machines and different operating systems, by providing a way to transparently exchange remote method calls and access remote objects.<br>
+With Pyro, Python developers can create distributed systems that consist of multiple nodes, each running Python code and exchanging data and function calls through the Pyro middleware layer. This allows developers to create large-scale distributed applications that can leverage the power of multiple machines and processing nodes.<br>
+Pyro uses a number of advanced features in Python, such as dynamic code execution and serialization of objects, to enable transparent remote access to objects and methods. Overall, Pyro makes it easy to create distributed Python applications, and allows Python developers to take advantage of the power of distributed computing.<br>
