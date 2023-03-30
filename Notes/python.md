@@ -6,4 +6,4 @@
 - Strong library support and vast collection of third-party libraries.
 - Can invoke c/c++ libraries and java components.
 - Can communicate with frameworks such as [**COM**](topics.md#COM), [.**NET**](topics.md#.NET).
-- Can interact over networks with interface like [**SOAP**](), [**XML-RPC**](),[**COBRA**]().
+- Can interact over networks with interface like [**SOAP**](topics.md#SOAP), [**XML-RPC**](topics.md#XLM-RPC),[**COBRA**](topics.md#COBRA).
